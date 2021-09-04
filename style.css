@@ -1,0 +1,71 @@
+body {
+        justify-content: center;
+      align-items: center;
+      min-height: 100vh;
+        margin: 0;
+        display: flex;
+    }
+
+    body::before {
+        content: "";
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        background: linear-gradient(rgb(255, 5, 5), rgb(228, 19, 228));
+    }
+    .container {
+        background-color: rgba(0, 0, 0, 0.5);
+        
+    }
+
+    table {  
+        position: absolute;
+        padding: 10px 0px !important;
+        background-color: rgba(255, 246, 246, 0);
+        box-shadow: -5px -5px 20px rgba(255, 255, 255, 0.1),
+            5px 5px 10px rgba(0, 0, 0, 1),
+            -2px -2px 5px rgba(255, 255, 255, 0.1),
+            2px 2px 5px rgba(0, 0, 0, 0.5), 0 0 2px #f1f1f1;
+        border-radius: 20px;
+        margin: auto;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+
+    #textbar {
+        text-align: center;
+        margin: 0px 10px;
+        padding: 25px 0px;
+        background-color: rgba(255, 249, 249, 0);
+        border: none;
+        font: inherit;
+        color: rgb(0, 0, 0);
+        border: 0.5px solid rgba(0, 0, 0, 0.226);
+        font-weight: 600;
+        word-wrap: break-word;
+        word-break: break-all;
+    }
+
+    table td {
+        font-size: 30px !important;
+        text-align: center;
+    }
+
+
+    input[type="button"]:hover {
+        background-color: rgba(255, 255, 255, 0.603);
+    }
+
+    input[type="button"] {
+        transition: all 0.8s ease;
+        margin: 0px !important;
+        font: inherit;
+        border: none;
+        border-radius: 60px;
+        outline: none;
+        color: rgb(2, 2, 2);
+        padding: 15px 27px;
+        background: none;
+        text-align: center;
+    }
